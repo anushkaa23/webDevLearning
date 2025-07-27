@@ -1,0 +1,27 @@
+h2{
+    font-weight: normal;
+}
+h2[id="red"]{
+    color: red;
+}
+
+h2[id="green"]{
+    color: green;
+}
+h2[id="blue"]{
+    color: blue;
+}
+h2[id="yellow"]{
+    color: yellow;
+}
+h2[id="purple"]{
+    color: purple;
+}
+h2[id="orange"]{
+    color: orange;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
