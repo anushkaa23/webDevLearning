@@ -1,0 +1,113 @@
+https://www.youtube.com/watch?v=_C5AHaS1mOA
+
+https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/dad7b1cb-2490-48a1-9959-3040a7e0cf27/ie6-comic-strip.jpg
+
+writing good javascript guide 
+https://github.com/rwaldron/idiomatic.js
+
+
+Principles of writing consistent js
+https://github.com/rwaldron/idiomatic.js/
+
+
+var variableName= value;
+var name=prompt("Enter Your Name");
+concate with +
+
+stringname.length;
+stringName.slice(x,y);
+stringName.toUpperCase();
+
+Selectively Captitalise
+var name=prompt("Enter Name");
+var firstchar=name.slice(0,1);
+var rest=name.slice(1,name.length);
+alert(firstchar.toUpperCase()  + rest.toLowerCase());
+
+function in js
+function functionName( varName ){
+
+}
+
+Math.floor -> for int div
+
+5/1.5 = 3.33333
+Math.floor(5/1.5)-> 3
+
+
+function lifeInWeeks(age){
+    var ageLeft=90-age;
+    var month=ageLeft*12;
+    var days=ageLeft*365;
+    var week=ageLeft*52;
+    console.log("You have "+days + " days, "+week" weeks, and " + month" months left.")
+}
+
+function bmiCalculator(weight , height){
+    bmi=Math.floor(weight/(height*height));
+    var interpretation;
+    if(bmi<18.5){
+        interpretation= `Your BMI is ${bmi}, so you are underweight.`;
+    }
+    else if(bmi>= 18.5 and bmi<=24.9){
+        interpretation=`Your BMI is ${bmi}, so you have a normal weight.`;
+    }
+    else{
+        interpretation=`Your BMI is ${bmi}, so you are overweight.`;
+    }
+    return interpretation;
+}
+function isLeap(year){
+    if(year%4!=0) return "Not leap year.";
+    else{
+        if(year%100!=0) return "Leap year.";
+        else{
+            if(year%400==0) return "Leap year.";
+        }
+    }
+    return "Not leap year.";
+}
+
+var myList=["a" , "b"]
+myList.includes(a);---> true;
+
+
+function whosPaying(names) {
+    
+/******Don't change the code above*******/
+    
+    //Write your code here.
+    var num=Math.floor(Math.Random()*names.length);
+    return names[num];
+    
+    
+
+
+/******Don't change the code below*******/    
+}
+
+
+var ind=0;
+while(ind<n){
+
+}
+
+for( var i=0;i<n ; i++){
+
+}
+
+
+function fibonacciGenerator (n) {
+//Do NOT change any of the code above 👆
+    if(n==1) return [0];
+    if(n==2) return [0,1];
+    var myList=[];
+    myList[0]=0;
+    myList[1]=1;
+    for(var i=2;i<n;i++){
+        myList[i]=myList[i-1]+myList[i-2];
+    }
+    return myList;
+}
+
+ 
